@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS and JavaScript Assignment</title>
+    <link rel="stylesheet" href="css_js_styles.css">
+
+    <style>
+        body {
+            background-color: cadetblue;
+            font-size: medium;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="title">HTML, CSS and JavaScript Assignment</h1>
+
+    <div id="css_test" style="background-color: antiquewhite; 
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+                             Geneva, Verdana, sans-serif;">
+
+        <h2 class="title">Part 1 - Testing features</h2>
+
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quasi vitae suscipit pariatur ex minus
+            hic animi consequatur beatae quisquam rerum id temporibus omnis nam excepturi neque aliquid at sequi
+            doloremque nisi est labore ipsa quis! Officiis iusto dolore ad atque saepe ea, nisi laborum dignissimos,
+            incidunt eius velit tempora.
+        </p>
+
+    </div>
+
+    <div id="js_test">
+        <h2 class="title">Part 2 - Text modification (JavaScript)</h2>
+
+        <p>
+            My name is <em id="name">Aziz</em>. <br />
+            I live in <em id="location">Accra</em>. <br />
+            I like <em id="hobby">Watching football</em>.
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const name = document.getElementById("name");
+            const location = document.getElementById("location");
+            const hobby = document.getElementById("hobby");
+
+            // Changing the text
+            name.innerHTML = "Michel";
+            location.innerHTML = "Abidjan";
+            hobby.innerHTML = "Eating at a restaurant";
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+hgroup {
+    text-align: center;
+}
+
+hr {
+    line-height: 0%;
+}
+
+#name {
+    font-size: large;
+    font-weight: normal;
+}
+
+.title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.content {
+    font-weight: bold;
+}
+
+.details {
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+}
+
+.more {
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}

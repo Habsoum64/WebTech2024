@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register a New Account | Chores MGT</title>
+    <link rel="stylesheet" href="register_styles.css">
+
+</head>
+
+<body>
+
+    <h1 id="Prompt">Enter your personal information</h1>
+    <div id="entries">
+
+        <form action="" method="get" name="user_info" id="signup">
+
+            <div class="user_details">
+                <label for="fname">First name: </label>
+                <input type="text" name="fname" id="fname" required />
+            </div>
+
+            <div class="user_details">
+                <label for="lname">Last name: </label>
+                <input type="text" name="lname" id="lname" required />
+
+            </div>
+
+            <div class="user_details">
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label for="gender"><input type="radio" name="gender" value="male"> Male </label>
+                    <label for="gender"><input type="radio" name="gender" value="female"> Female </label>
+                    <label for="gender"><input type="radio" name="gender" value="other"> Other </label>
+                </fieldset>
+            </div>
+
+            <div class="user_details">
+                <label for="Family_role">Family role:</label>
+                <select id="Family_role" name="Family_role">
+                    <option value="Father">Father</option>
+                    <option value="Mother">Mother</option>
+                    <option value="Son">Son</option>
+                    <option value="Daughter">Daughter</option>
+                </select>
+            </div>
+
+            <div class="user_details">
+                <label for="birthdate">Birthdate: </label>
+                <input type="date" name="birthdate" id="birthdate" required />
+            </div>
+
+            <div class="user_details">
+                <label for="email">Email: </label>
+                <input placeholder="user@email.com" type="text" name="username" id="username" required />
+            </div>
+
+            <div class="user_details">
+                <label for="password">Password: </label>
+                <input type="text" name="password" id="password" required />
+            </div>
+
+            <div class="user_details">
+                <label for="password_re">Retype password: </label>
+                <input type="text" name="password_re" id="password_re" required />
+            </div>
+
+            <div class="validation">
+                <input type="submit" value="Register">
+
+            </div>
+
+        </form>
+
+        <div class="validation">
+            <a href="login.html"><button>Login</button></a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
